@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEPHEN.CORE // Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #050505; --accent: #00f2ff; --text: #ffffff; }
+        body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; }
+        nav { position: fixed; top: 0; width: 100%; padding: 20px 50px; display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.5); backdrop-filter: blur(10px); z-index: 100; }
+        .logo { font-family: 'Orbitron'; color: var(--accent); letter-spacing: 2px; }
+        .nav-links a { color: #888; text-decoration: none; font-family: 'Orbitron'; margin-left: 30px; font-size: 0.9rem; transition: 0.3s; }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent); text-shadow: 0 0 10px var(--accent); }
+        .hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+        h1 { font-family: 'Orbitron'; font-size: 4rem; background: linear-gradient(to right, #fff, var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Stephen.Core</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">HOME</a>
+            <a href="games.html">GAMES</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <h1>SYSTEM ARCHIVE</h1>
+        <p style="color: var(--accent); letter-spacing: 5px;">CURATED BY STEPHEN</p>
+    </section>
+</body>
+</html>
